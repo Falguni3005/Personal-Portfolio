@@ -2,31 +2,27 @@
 import React, { useState, useEffect, useRef } from "react" // Import React
 import { Box, Container, Typography, Card, CardContent, Fade, Slide, useTheme, alpha, Zoom, Grow, CardMedia, Tooltip} from "@mui/material"
 import { styled, keyframes } from "@mui/material/styles"
-import genieImage from '../assets/GenieHub.jpeg';
-import Fin from '../assets/Fin.jpeg';
-import Dice from '../assets/Dice.jpeg';
-
 const projects = [
   {
     id:1,
     title: "HR & Career Portals – Fincoopers Capital Pvt Ltd",
     description:
       "Led the architecture and development of AI-driven HR and Career platforms using Next.js, MUI, and REST APIs. Built foundational modules including authentication, organization setup, and RBAC integration. Implemented dynamic job creation with skill analysis, resume parsing, AI-based candidate scoring, interview workflows, and automated offer letter generation — streamlining the entire recruitment lifecycle.",
-    image: Fin,
+    image: "/Fin.jpeg",
     },
   {
     id:2,
     title: "Enterprise Platforms – Dice Enterprise",
     description:
       "Delivered responsive, scalable user interfaces for enterprise clients like IDFC, Yes Bank, MakeMyTrip, and ClearTrip. Designed dashboards and modules for expense tracking, ticketing, and BBPS workflows. Contributed to a B2B travel booking UI, integrated approval systems, and resolved critical issues across production-grade applications.",
-    image: Dice, 
+      image: "/Dice.jpeg",
     },
   {
     id:3,
     title: "Web Interfaces – Geniehub Solutions",
     description:
       "Developed clean, responsive UI components using React and Tailwind CSS, translating Figma designs into functional web layouts. Focused on implementing reusable components and maintaining consistency across the frontend to enhance usability and performance.",
-    image: genieImage,
+      image: "/Geniehub.jpeg",
     },
 ]
 
