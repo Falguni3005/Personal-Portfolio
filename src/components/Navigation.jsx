@@ -183,18 +183,9 @@ export default function Navigation() {
       <StyledAppBar position="fixed" scrolled={scrolled}>
         <Toolbar sx={{ justifyContent: "space-between", py: 1, px: { xs: 2, md: 4 } }}>
           <Logo onClick={() => scrollToSection("hero")}>
-            <Avatar 
-              src="/path-to-your-avatar.jpg" 
-              alt="Falguni Rana"
-              sx={{ 
-                width: 32, 
-                height: 32,
-                border: `2px solid ${alpha(theme.palette.primary.main, 0.5)}`,
-                boxShadow: `0 0 10px ${alpha(theme.palette.primary.main, 0.5)}`
-              }}
-            />
+
             Falguni Rana
-            <span>Portfolio</span>
+
           </Logo>
 
           <Box sx={{ display: { xs: "none", md: "flex" }, gap: 1, alignItems: "center" }}>
