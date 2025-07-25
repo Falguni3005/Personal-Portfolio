@@ -261,7 +261,7 @@ const Hero = () => {
             sx={{
               color: "text.secondary",
               mb: 6,
-              maxWidth: "650px",
+              maxWidth: "800px",
               mx: "auto",
               fontSize: { xs: "1rem", md: "1.125rem" },
               fontWeight: 400,
