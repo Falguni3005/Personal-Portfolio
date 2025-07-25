@@ -288,7 +288,7 @@ Crafting exceptional digital experiences through modern technologies and clean, 
             Let's Collaborate
           </PrimaryButton>
 
-          <SecondaryButton variant="outlined" onClick={() => window.open("/Falguni_Resume.pdf", "_blank")}>
+          <SecondaryButton variant="outlined" onClick={() => window.open("/Falguni-Resume1.pdf", "_blank")}>
             View Resume
           </SecondaryButton>
         </Box>
