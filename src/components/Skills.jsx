@@ -138,7 +138,7 @@ const Skills = () => {
                 transition: 'all 0.3s ease',
                 backdropFilter: 'blur(10px)', // glass effect
                 backgroundColor: 'rgba(188, 184, 184, 0.2)', // translucent gray
-                color: 'black',
+                color: 'white',
                 border: '1px solid rgba(255, 255, 255, 0.2)',
               },
               '& .Mui-selected': {
